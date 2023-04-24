@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="DNAConversion\" />
+    <None Remove="BinaryConversion\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DNAConversion\" />
+    <Folder Include="BinaryConversion\" />
+  </ItemGroup>
 </Project>
