@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions; //To be able to access the Regex class and its members.
 
-namespace BinaryAndDNAConversion.Validation
+namespace BinaryAndDNAConversions.Validation
 {
 	/// <summary>
 	/// Validator is the base class from which classes which contain methods related to validation specific to binary patterns
@@ -35,14 +35,14 @@ namespace BinaryAndDNAConversion.Validation
 		/// <param name="input">Represents the input to be checked for null. If the result is true (thus the input is null),
 		/// exceptions can be thrown, namely ArgumentNullException if an argument passed to method invocation is null.</param>
 		/// <returns>Returns true if input is null, false if otherwise.</returns>
-		public bool IsNull(string input) => input == null;
+		public static bool IsNull(string input) => input == null;
 
 		/// <summary>
 		/// Checks whether the input supplied as a parameter is empty.
 		/// </summary>
 		/// <param name="input">Represents the input to be checked as to whether it is empty or contains only whitespace.</param>
 		/// <returns>Returns true if input is empty if and only if the length of the string is exactly zero, or the string contains only whitespaces.</returns>
-		public bool IsEmpty(string input) => string.IsNullOrEmpty(input) || string.IsNullOrWhiteSpace(input);
+		public static bool IsEmpty(string input) => string.IsNullOrEmpty(input) || string.IsNullOrWhiteSpace(input);
 
 		/// <summary>
 		/// Checks whether the input matches the pattern expression set in the instance of Regex.
