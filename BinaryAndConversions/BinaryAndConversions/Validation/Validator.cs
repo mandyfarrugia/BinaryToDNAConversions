@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text.RegularExpressions; //To be able to access the Regex class and its members.
+﻿using System.Text.RegularExpressions; //To be able to access the Regex class and its members.
 
 namespace BinaryAndDNAConversions.Validation
 {

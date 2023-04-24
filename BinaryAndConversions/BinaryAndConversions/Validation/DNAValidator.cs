@@ -9,10 +9,15 @@ namespace BinaryAndDNAConversions.Validation
     /// </summary>
     public class DNAValidator : Validator
 	{
+        /// <summary>
+		/// The regex attribute inherited from the Validator base class will be instantiated.
+		/// The argument to be passed during constructor invocation is the pattern resembling a DNA pattern.
+		/// The instance will then be used to check as to whether the format of the given DNA pattern matches
+		/// the pattern specified whilst instantiating the instance of Regex.
+		/// </summary>
 		public DNAValidator() : base()
 		{
             this.regex = new Regex("^[ACGT]+$");   
 		}
 	}
 }
-
