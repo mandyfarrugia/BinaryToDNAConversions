@@ -10,9 +10,13 @@
   <ItemGroup>
     <None Remove="DNAConversion\" />
     <None Remove="BinaryConversion\" />
+    <None Remove="FileHandling\" />
+    <None Remove="DemoTestFiles\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DNAConversion\" />
     <Folder Include="BinaryConversion\" />
+    <Folder Include="FileHandling\" />
+    <Folder Include="DemoTestFiles\" />
   </ItemGroup>
 </Project>
