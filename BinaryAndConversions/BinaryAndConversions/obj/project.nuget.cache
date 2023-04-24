@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S+frnN1ClpuUTXvph0mwj/Sssa+O+GkcleZ0uAUTO4dfSH0+Vqny1PUpTnlj+yldYYXKyhSM3PCxmPrX/HKstA==",
+  "dgSpecHash": "V41CGF1y+Bx+Qy4pXnTiYYn5JJ6rnEoRw+XeBvTH4e6F3TmVTuw6fb77cl6KXmUKVJ8O90+lL62udbqNZjo2Aw==",
   "success": true,
-  "projectFilePath": "/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/BinaryAndConversions.csproj",
+  "projectFilePath": "/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/BinaryAndDNAConversions.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

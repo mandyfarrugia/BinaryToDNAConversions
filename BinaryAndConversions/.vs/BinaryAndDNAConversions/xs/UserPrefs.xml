@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{608FA98E-E69F-4719-9B53-D0496CA76C2C}|Default">
+  <MonoDevelop.Ide.ItemProperties.BinaryAndDNAConversions PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BinaryAndConversions/Validation/BinaryValidator.cs">
+    <Files>
+      <File FileName="BinaryAndConversions/Program.cs" Line="6" Column="6" />
+      <File FileName="BinaryAndConversions/Validation/Validator.cs" Line="57" Column="2" />
+      <File FileName="BinaryAndConversions/Validation/BinaryValidator.cs" Line="4" Column="45" />
+      <File FileName="BinaryAndConversions/Validation/DNAValidator.cs" Line="4" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

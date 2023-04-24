@@ -1,0 +1,15 @@
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/bin/Debug/net6.0/BinaryAndDNAConversions
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/bin/Debug/net6.0/BinaryAndDNAConversions.deps.json
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/bin/Debug/net6.0/BinaryAndDNAConversions.runtimeconfig.json
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/bin/Debug/net6.0/BinaryAndDNAConversions.dll
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/bin/Debug/net6.0/BinaryAndDNAConversions.pdb
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/obj/Debug/net6.0/BinaryAndDNAConversions.csproj.AssemblyReference.cache
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/obj/Debug/net6.0/BinaryAndDNAConversions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/obj/Debug/net6.0/BinaryAndDNAConversions.AssemblyInfoInputs.cache
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/obj/Debug/net6.0/BinaryAndDNAConversions.AssemblyInfo.cs
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/obj/Debug/net6.0/BinaryAndDNAConversions.csproj.CoreCompileInputs.cache
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/obj/Debug/net6.0/BinaryAndDNAConversions.dll
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/obj/Debug/net6.0/refint/BinaryAndDNAConversions.dll
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/obj/Debug/net6.0/BinaryAndDNAConversions.pdb
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/obj/Debug/net6.0/BinaryAndDNAConversions.genruntimeconfig.cache
+/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/obj/Debug/net6.0/ref/BinaryAndDNAConversions.dll

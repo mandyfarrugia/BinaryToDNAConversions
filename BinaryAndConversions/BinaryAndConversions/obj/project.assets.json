@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/BinaryAndConversions.csproj",
-      "projectName": "BinaryAndConversions",
-      "projectPath": "/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/BinaryAndConversions.csproj",
+      "projectUniqueName": "/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/BinaryAndDNAConversions.csproj",
+      "projectName": "BinaryAndDNAConversions",
+      "projectPath": "/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/BinaryAndDNAConversions.csproj",
       "packagesPath": "/Users/administrator/.nuget/packages/",
       "outputPath": "/Users/administrator/Documents/GitHub/BinaryToDNAConversions/BinaryAndConversions/BinaryAndConversions/obj/",
       "projectStyle": "PackageReference",

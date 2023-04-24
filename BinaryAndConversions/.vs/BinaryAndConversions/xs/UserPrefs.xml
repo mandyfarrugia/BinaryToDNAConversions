@@ -1,4 +1,4 @@
 ﻿<Properties StartupConfiguration="{608FA98E-E69F-4719-9B53-D0496CA76C2C}|Default">
-  <MonoDevelop.Ide.ItemProperties.BinaryAndConversions FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.BinaryAndDNAConversions PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
   <MultiItemStartupConfigurations />
 </Properties>
