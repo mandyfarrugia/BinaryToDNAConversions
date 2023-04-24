@@ -9,7 +9,7 @@ namespace BinaryAndDNAConversions.Validation
 	/// The definition of an empty string is as follows, either the string can be empty where the length of the string is exactly zero,
 	/// or the string contains only whitespace. In the case of single-line methods, expression-bodied methods will be used.
 	/// </summary>
-	public class Validator
+	public class Validator : IValidator
 	{
 		/// <summary>
 		/// The attribute regex has been marked as protected since it will be used in classes deriving from Validator.
@@ -35,14 +35,14 @@ namespace BinaryAndDNAConversions.Validation
 		/// <param name="input">Represents the input to be checked for null. If the result is true (thus the input is null),
 		/// exceptions can be thrown, namely ArgumentNullException if an argument passed to method invocation is null.</param>
 		/// <returns>Returns true if input is null, false if otherwise.</returns>
-		public static bool IsNull(string input) => input == null;
+		public bool IsNull(string input) => input == null;
 
 		/// <summary>
 		/// Checks whether the input supplied as a parameter is empty.
 		/// </summary>
 		/// <param name="input">Represents the input to be checked as to whether it is empty or contains only whitespace.</param>
 		/// <returns>Returns true if input is empty if and only if the length of the string is exactly zero, or the string contains only whitespaces.</returns>
-		public static bool IsEmpty(string input) => string.IsNullOrEmpty(input) || string.IsNullOrWhiteSpace(input);
+		public bool IsEmpty(string input) => string.IsNullOrEmpty(input) || string.IsNullOrWhiteSpace(input);
 
 		/// <summary>
 		/// Checks whether the input matches the pattern expression set in the instance of Regex.
@@ -53,5 +53,5 @@ namespace BinaryAndDNAConversions.Validation
 		/// <param name="input">Represents the input to be checked for correctness.</param>
 		/// <returns></returns>
 		public bool IsFormatCorrect(string input) => this.regex!.IsMatch(input);
-	}
+    }
 }

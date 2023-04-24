@@ -1,5 +1,4 @@
-﻿using System;
-using BinaryAndDNAConversions.Validation;
+﻿using System.Text.RegularExpressions; //To be able to access the Regex class and its members.
 
 namespace BinaryAndDNAConversions.Validation
 {
@@ -12,7 +11,7 @@ namespace BinaryAndDNAConversions.Validation
 	{
 		public DNAValidator() : base()
 		{
-            
+            this.regex = new Regex("^[ACGT]+$");   
 		}
 	}
 }
