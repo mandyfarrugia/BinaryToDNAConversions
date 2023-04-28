@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace BinaryAndDNAConversions.DNAConversion
 {
 	public class DNA
@@ -8,4 +9,3 @@ namespace BinaryAndDNAConversions.DNAConversion
 		}
 	}
 }
-

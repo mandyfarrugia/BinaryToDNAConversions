@@ -8,8 +8,8 @@ namespace BinaryAndDNAConversions.Validation
 	/// is even using the modulus operator, as well as whether a binary pattern is of the correct format if and only if it only contains
 	/// 0s and 1s.
 	/// </summary>
-	public class BinaryValidator : Validator
-	{
+	public class BinaryValidator : Validator, IBinaryValidator
+    {
 		/// <summary>
 		/// The regex attribute inherited from the Validator base class will be instantiated.
 		/// The argument to be passed during constructor invocation is the pattern resembling a binary pattern.
@@ -29,6 +29,6 @@ namespace BinaryAndDNAConversions.Validation
         /// Represents the binary pattern whose length will be checked as to whether it is even using the modulus operator.
         /// </param>
         /// <returns>Returns true if the length of the binary pattern is even. Otherwise, false is returned if the length of the binary pattern is odd.</returns>
-        public static bool IsLengthOfBinaryPatternEven(string binaryPattern) => binaryPattern.Length % 2 == 0; 
+        public bool IsLengthOfBinaryPatternEven(string binaryPattern) => binaryPattern.Length % 2 == 0; 
 	}
 }
