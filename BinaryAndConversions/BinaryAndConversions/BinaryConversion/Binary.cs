@@ -1,9 +1,7 @@
-﻿using System;
-using System.Text;
+﻿using System.Text;
 using System.Text.RegularExpressions;
 using BinaryAndDNAConversions.Mappings;
 using BinaryAndDNAConversions.Validation;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace BinaryAndDNAConversions.BinaryConversion
 {
@@ -44,26 +42,41 @@ namespace BinaryAndDNAConversions.BinaryConversion
         /// <returns>When all validation checks pass, the DNA equivalent of the binary pattern will be returned.</returns>
         public string ConvertToDNA(string binaryPattern)
 		{
-			if (this.binaryValidator!.IsNull(binaryPattern))
+            /* If the binary pattern is null, an ArgumentNullException will be thrown. 
+			 * A message will be passed when throwing an exception to explain what caused the exception. */
+            if (this.binaryValidator!.IsNull(binaryPattern))
 				throw new ArgumentNullException(nameof(binaryPattern), "The binary pattern cannot be null!");
 
-			if (this.binaryValidator!.IsEmpty(binaryPattern))
+            /* If the binary pattern is empty or contains only a whitespace, an ArgumentException will be thrown. 
+             * A message will be passed when throwing an exception to explain what caused the exception. */
+            if (this.binaryValidator!.IsEmpty(binaryPattern))
 				throw new ArgumentException("The binary pattern cannot be empty or contain only whitespaces!", nameof(binaryPattern));
 
-			if (!this.binaryValidator.IsFormatCorrect(binaryPattern))
+            //Check that the binary pattern contains only 0s and 1s, throw a FormatException if otherwise.
+            if (!this.binaryValidator.IsFormatCorrect(binaryPattern))
 				throw new FormatException("The binary pattern must only contain 0s and 1s!");
 
-			if (!this.binaryValidator.IsLengthOfBinaryPatternEven(binaryPattern))
+            //Check that the length of the binary pattern is even, throw an ArgumentException if the length is odd.
+            if (!this.binaryValidator.IsLengthOfBinaryPatternEven(binaryPattern))
 				throw new ArgumentException("The length of the binary pattern is not even!", nameof(binaryPattern));
 
-			string[] groupsOfTwoBits = Regex.Split(binaryPattern, "(?<=\\G.{2})");
+            /* The binary string will be grouped into bits of two. 
+             * Then each group will be traversed using a for-loop to check whether they match the keys representing the binary patterns. 
+             * If there is a match, then the value corresponding to the key will be appended to this variable which the method will return.\
+             * The regular expression denotes that the binary pattern must be split every two characters. 
+             * Therefore, this groups the binary patterns into two bits. */
+            string[] groupsOfTwoBits = Regex.Split(binaryPattern, "(?<=\\G.{2})");
 
-			if (groupsOfTwoBits == null || groupsOfTwoBits.Length == 0)
+            //Throw InvalidOperationException if an error occurred while attempting to split the binary pattern into groups of two bits.
+            if (groupsOfTwoBits == null || groupsOfTwoBits.Length == 0)
 				throw new InvalidOperationException("An error occurred while attempting to split the binary pattern into groups of two bits!");
 
-			StringBuilder stringBuilder = new StringBuilder();
+            //A StringBuilder instance is more efficient to append to said instance, rather than appending to a string using +=.
+            StringBuilder stringBuilder = new StringBuilder();
 
-			Dictionary<string, string> binaryAndDNAMappings = DataMapping.GetMappings();
+            /* Go through each group and see whether they match the key counterpart of dataConversionEntry. 
+             * If there is a match, append the value counterpart of dataConversionEntry to dnaPattern. */
+            Dictionary<string, string> binaryAndDNAMappings = DataMapping.GetMappings();
 
 			foreach(string groupOfTwoBits in groupsOfTwoBits)
 			{
