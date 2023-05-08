@@ -1,4 +1,10 @@
 ﻿<Properties StartupConfiguration="{608FA98E-E69F-4719-9B53-D0496CA76C2C}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.BinaryAndDNAConversions PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="BinaryAndConversions/BinaryConversion/Binary.cs">
     <Files>
@@ -7,8 +13,8 @@
       <File FileName="BinaryAndConversions/Validation/BinaryValidator.cs" />
       <File FileName="BinaryAndConversions/Validation/DNAValidator.cs" />
       <File FileName="BinaryAndConversions/Validation/IValidator.cs" />
-      <File FileName="BinaryAndConversions/BinaryConversion/Binary.cs" Line="39" Column="43" />
-      <File FileName="BinaryAndConversions/DNAConversion/DNA.cs" Line="13" Column="4" />
+      <File FileName="BinaryAndConversions/BinaryConversion/Binary.cs" Line="14" Column="16" />
+      <File FileName="BinaryAndConversions/DNAConversion/DNA.cs" />
       <File FileName="BinaryAndConversions/FileHandling/IFileOperation.cs" />
       <File FileName="BinaryAndConversions/FileHandling/FileSystem.cs" />
       <File FileName="BinaryAndConversions/DemoTestFiles/binaryFile.txt" />
@@ -21,9 +27,7 @@
         <State name="__root__">
           <Node name="BinaryAndDNAConversions" expanded="True">
             <Node name="BinaryAndDNAConversions" expanded="True">
-              <Node name="BinaryConversion" expanded="True">
-                <Node name="Binary.cs" selected="True" />
-              </Node>
+              <Node name="BinaryConversion" expanded="True" />
               <Node name="DemoTestFiles" expanded="True" />
               <Node name="DNAConversion" expanded="True" />
               <Node name="FileHandling" expanded="True" />
@@ -35,10 +39,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
